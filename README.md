@@ -1,12 +1,20 @@
-
+### React Redux 
+### Structure of Source Code
 src/
-├── assets ── product.json
+|
+├── assets
+|    |
+|    └── product.json
+├── app
+|   |
+|   └── store.jsx
+|
 ├── features/
 │   └── cart/
-│       ├── cartSlice.js   
-│       └── CartPage.js   
+│       ├── cartSlice.jsx  
+│       └── CartPage.jsx 
 ├── components/
-│   ├── Navbar.js       
-│   ├── CartItem.js      
-│   └── Total.js         
-└── App.js   
+│   ├── Navbar.jsx       
+│   ├── CartItem.jsx    
+│   └── Total.jsx        
+└── App.jsx  
