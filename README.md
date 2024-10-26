@@ -1,6 +1,7 @@
 ### React Redux 
 ### Structure of Source Code
-src
+src/
+|
 |
 ├── assets
 |    |
